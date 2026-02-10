@@ -1,0 +1,142 @@
+
+*{
+    padding: 0;
+    margin: 0;
+ font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+.container{
+    padding: 35px;
+}
+.header{
+    background-color:black;
+    color: white;
+    box-shadow: 2px blueviolet;
+    height: 150px;
+    padding-left: 20px;
+    width: 100%;
+    padding-top: 25px;
+}
+.head-contect{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    background-color:turquoise ;
+    margin-top: 15px;
+    padding: 4px;
+}
+.head-contect:hover{
+    color: red;
+}
+.head-job{font-size: medium;
+}
+.head-job{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.case1,.case2,.case3,.case4{
+    margin-top: 30px;
+}
+.case1-title,.case2-title,.case3-title{
+    margin-bottom: 10px;
+}
+.case4{
+    background-color: black;
+    color: white;
+    padding: 18px;
+}
+.case4-dec{
+    margin-top: 10px;
+}
+.oneline:hover{
+    color: chartreuse;
+}
+.oneline{
+    color: skyblue;
+}
+.case2-det,.case3-sun{
+    list-style: none;
+}
+.case2{
+    background-color: rgba(14, 210, 194, 0.6);
+    color: black;
+    padding: 20px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10%;
+    box-shadow: -2px -2px red;
+       vertical-align: top;
+}
+.case3{
+    background-color: rgb(248, 151, 230);
+    padding: 20px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 150px;
+    margin-left: 20px;
+    vertical-align: top;
+    box-shadow: -2px -2px rgb(16, 167, 227);
+}
+.menu{
+    padding: 20px;
+    height: 120px;
+    background: linear-gradient(
+        60deg,
+        #f8cccc,
+        #b8e5fb,
+        #aacafa,
+        #99f9c5,
+        #fae0c7
+    );
+    background-size: 400% 400%;
+    animation: gradientMove 60s ease infinite;
+}
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.title{
+    padding-bottom: 15px;
+}
+.home-but{
+   
+    height: 40px;
+    width: 80px;
+    margin-top: 15px;
+    background-color: rgb(255, 0, 255);
+    
+}
+.but{text-decoration: none;
+     color: rgb(36, 43, 56);
+     font-weight: 600;
+}
+.info{
+    padding: 20px;
+    line-height: 40px;
+}
+
+.Name{
+    border: none;
+    border-bottom: 2px solid beige ;
+}
+.gmail{
+    border: none;
+     border-bottom: 2px solid beige ;
+}
+.Message{
+    border: none;
+     border: 2px solid beige ;
+}
+.sun{
+    background-color: burlywood;
+    height: 30px;
+    width: 60px;
+    border: none;
+
+}
+.sun:hover{
+    background-color: red;
+}
